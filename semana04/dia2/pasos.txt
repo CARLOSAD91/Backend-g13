@@ -1,0 +1,24 @@
+PASOS PARA CREAR UN PROYECTO EN DJANGO
+paso 1  -  crear entorno virtual
+python -m venv venv
+
+paso 2 - activar entorno virtual
+source venv/Scripts/activate
+
+paso 3 - instalar django
+pip install django
+
+paso 4 - crear el proyecto con django
+django-admin startproject recetas
+
+paso 5 - crear el app en el proyecto
+cd recetas
+python manage.py starapp app
+
+pasos 6 - editar settings.py,
+añado lo siguiente
+INSTALLED_APPS = [
+    'app',]
+
+pasos 7 - desplegar el proyecto
+ptyhon manage.py runserver

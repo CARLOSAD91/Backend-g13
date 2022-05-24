@@ -1,0 +1,8 @@
+/* Creacion de un eviromente
+python -m venv venv
+
+/* activate el enviroment
+source venv/Scripts/activate
+
+/* desactivar un enviroment
+deactivate
